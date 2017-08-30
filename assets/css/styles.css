@@ -16,19 +16,24 @@
 	width: 100;
 	height: auto;
 }
+.head_logo{
+	float: left;
+	padding-bottom: 10px;
+}
 .nav_inlinement{
-	display: inline-block;
 	padding: 20px 180px 25px 100px;
 }
 .nav_links{
 	float: right;
   	display: block;
   	text-align: justify;
-  	padding: 14px 16px;
-  	text-decoration: none;
+  	padding: 16px 16px;
+  	font-size: 15px;
   	list-style-type: none;
 }
-
+.nav_links a{
+	text-decoration: none;
+}
 /*savings*/
 .savings{
 	width: 100%;
@@ -91,9 +96,9 @@
 }
 /*more4u*/
 .more{
-	width: 90%;
+	width: 75%;
 	padding-top: 45px;
-    padding: 40px 280px 45px 150px;
+    padding: 150px 280px 45px 150px;
 }
 .logo_and_text{
 	padding-top: 40px;
@@ -106,14 +111,15 @@
 	padding-bottom: 10px;
 }
 .more_slogen{
-	padding-bottom: 30px;
-	font-size: 27px;
+	padding:0 0 35px 50px;
+	font-size: 20px;
 
 }
 .more4ULastStatement{
 	width: 100%;
 	display: inline-block;
 	text-align: center;
+	font-size: 15px;
 	padding-top: 20px;
 }
 .more_info{
@@ -122,8 +128,8 @@
     overflow: hidden;
     text-align: justify;
     color: black;
-    padding-right: 75px;
-    font-size: 21px;
+    padding-right: 1s5px;
+    font-size: 18px;
     padding-top: 30px;
     clear: both;
 }
